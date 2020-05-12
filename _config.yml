@@ -1,10 +1,10 @@
-title: Pascal awesome title 23
-email: p&#097;&#115;&#099;&#097;&#108;&#046;&#103;&#114;&#101;&#105;&#108;&#105;&#099;&#104;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+title: Pascamel
+email: nope@gmail.com
 description: Matrix was huge in 1999
 baseurl: ''
 url: ''
 github: pascamel
-statement: Break things
+statement: Move fast, break things
 # Build settings
 # theme: minima
 plugins:

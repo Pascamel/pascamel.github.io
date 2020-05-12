@@ -7,38 +7,33 @@ btn_text: true
 footer: true
 title: ''
 author: ''
-encrypted_text: true
 permalink: /
 ---
 
-# Title level 1
+# Pascamel
 
-## Title level 2
+## Who am I
 
-- item 1
-- item 2
-- item 3
-- Decrypt and encrypt text (access token: 233):
+I write coffee and drink a lot of code. Or maybe the other way around.
 
-  - sub item 1
-  - sub item 2
+- Javascript
+  - React
+  - AngularJS
+  - Typescript
+  - Flow
+- CSS
+- Python
+- PHP
+- Hack
+- C#
+- SQL
 
-* Code highlight with Rouge
+## Where do/did I work on?
 
-```javascript
-// javascript is life
-const a = (n) => {
-  return n || 1;
-};
-```
+- [**A job costing and project management software for contracting businesses.**](https://www.knowify.com)
+- [**Big data and machine learning to connect the fragmented, disparate world of commercial real estate.**](https://www.reonomy.com)
+- [**A social network with a lof of Thumbs Up**](https://www.facebook.com)
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Disclaimer
 
-## Link sample
-
-[**THIS IS A LINK (Github)**](https://github.com/pascamel)
+Matrix was a big thing in 1999.
