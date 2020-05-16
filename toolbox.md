@@ -4,7 +4,7 @@ layout: article
 
 ### .bash_profile
 
-{% highlight Bash linenos %}
+{% highlight Bash %}
 connect () { printf "\$1" | /opt/cisco/anyconnect/bin/vpn -s connect "Americas East"; }
 
 alias disconnect='/opt/cisco/anyconnect/bin/vpn disconnect'
@@ -50,3 +50,39 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "W", function()
   hs.alert.show("Hello Pascamel!")
 end)
 {% endhighlight %}
+
+### Github
+
+#### Sync forked repo
+
+```
+git checkout master
+git pull upstream master
+git push origin master
+```
+
+#### Reset forked repo
+
+```
+git remote add upstream /url/to/original/repo
+git fetch upstream
+git checkout master
+git reset --hard upstream/master  
+git push origin master --force 
+```
+
+#### Force pull to overwrite local files
+
+```
+git fetch --all
+git reset --hard origin/master
+git pull origin master
+```
+
+#### Squash commits master
+
+```
+git reset --soft <LAST-COMMIT-THAT'S-OK>
+git commit -m 'Many squashed commits'
+git push --force origin master
+```

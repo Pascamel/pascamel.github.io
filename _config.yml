@@ -57,12 +57,9 @@ paths:
 ## excerpt
 excerpt_separator: <!--more-->
 
-## license
-# license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
-
 ## TOC
 toc:
-  selectors: # "h1,h2,h3" (default)
+  selectors: 'h1,h2,h3,h4' # "h1,h2,h3" (default)
 
 ## => Markdown Enhancements
 ##############################
@@ -126,7 +123,7 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: default # "default" (default), false, "google", "custom"
+  provider: false # "default" (default), false, "google", "custom"
 
   ## Google Custom Search Engine
   google:
@@ -135,11 +132,11 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: 'google' # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id: # Google Analytics id for the site
+    tracking_id: 'UA-166629265-1' # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 ## => Build
