@@ -59,9 +59,8 @@ img {
 }
 
 hr {
-  margin:60px auto;
+  margin:40px auto;
   width:50%;
-  border-color: {{ site.colors.black }};
 }
 
 .container { word-wrap: break-word; }
@@ -144,6 +143,10 @@ nav ul li {
   min-width:110px;
   line-height:60px;
   margin:0;
+}
+
+nav ul li.subitem {
+  background: #404040;
 }
 
 nav ul li a, nav ul li a:visited {
